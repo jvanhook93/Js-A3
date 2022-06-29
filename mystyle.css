@@ -1,0 +1,45 @@
+html{
+  font-size: 62.5%;
+}
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 2;
+  font-size: 16px;
+}
+
+header{
+  height: 20vh;
+  background-color: #5f0d0d;
+  color: rgb(116, 114, 11);
+  text-align: center;
+  margin-bottom: 0rem;
+}
+
+main{
+  height: 100rem;
+  background-color: rgb(0, 0, 0);
+}
+.container{
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+}
+ul{
+  width: 40%;
+  padding-top: 3rem;
+}
+ul li{
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  padding: 1rem;
+  background-color: #dedede;
+  box-shadow: 2px 2px 2px gray;
+  padding-left: 2rem;
+  margin-left: 29rem;
+}
